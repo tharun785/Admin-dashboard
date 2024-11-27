@@ -32,6 +32,7 @@ Documentation:
 This README.md provides clarity about setup, features, and usage.
 Project Structure
 ├── public/
+
 ├── src/
 │   ├── components/
 │   │   ├── AdminDashboard.js
@@ -50,7 +51,7 @@ npm or yarn
 Installation Steps
 Clone the repository:
 
-git clone https://github.com/your-username/admin-dashboard.git
+git clone  https://github.com/tharun785/admin-dashboard.git
 cd admin-dashboard
 Install dependencies:
 

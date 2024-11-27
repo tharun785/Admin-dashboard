@@ -1,0 +1,215 @@
+ 
+
+
+/* AdminDashboard.css */
+
+ /* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-gray-600 {
+  color: #28cb49;
+}
+
+.text-gray-600:hover {
+  color: #cc6930;
+}
+
+.text-blue-600 {
+  color: #ea3604;
+}
+
+.text-blue-600:hover {
+  color: #c67f1a;
+}
+
+.text-red-600 {
+  color: #e53e3e;
+}
+
+.text-red-600:hover {
+  color: #c53030;
+}
+
+.text-green-600 {
+  color: #38a169;
+}
+
+Containers and Cards
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border {
+  border: 1px solid #e2e8f0;
+}
+
+/* Inputs and Buttons */
+input, select {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+button {
+  cursor: pointer;
+}
+
+button.bg-blue-500 {
+  background-color: #3182ce;
+}
+
+button.bg-blue-500:hover {
+  background-color: #2b6cb0;
+}
+
+button.text-gray-600:hover {
+  text-decoration: underline;
+}
+
+/* Status Badges */
+.bg-green-100 {
+  background-color: #f0fff4;
+}
+
+.bg-red-100 {
+  background-color: #fff5f5;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+/* Grid for User Cards */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.md\:grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lg\:grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-4 {
+  gap: 1rem;
+} 
+
+ 
